@@ -1,6 +1,8 @@
 // LoRa Receive Program Version 2
 // Serial_to_LoRa_RX_V2.ino
 // Copyright Kenny Trussell
+// http://kenny.trussell.biz
+//
 // Shared under the MIT License
 //
 // This version collects incoming data until no LoRa packets have been

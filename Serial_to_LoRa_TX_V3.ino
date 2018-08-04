@@ -1,6 +1,8 @@
 // LoRa Transmit Program Version 3
 // Serial_to_LoRa_TX_V3.ino
 // Copyright Kenny Trussell
+// http://kenny.trussell.biz
+//
 // Shared under the MIT License
 //
 // This version sends 200 byte packets, ignoring any RTCM protocol boundaries
