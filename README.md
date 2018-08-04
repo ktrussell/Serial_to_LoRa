@@ -1,5 +1,5 @@
 # Serial_to_LoRa
-Transmit and receive programs for Adafruit Feather M0 LoRa module to transmit one way data over LoRa
+Transmit and receive programs for Adafruit Feather M0 LoRa module to transmit one way data over LoRa. I use these routines on the boards with a U-blox C94-M8P evaluation kit to send RTK correction data from base GPS to rover GPS for an autonomous lawn mower.
 
 Using Feather M0 Lora with a Ublox C94-M8P evaluation kit:
 
