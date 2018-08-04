@@ -15,3 +15,6 @@ I powered the feather via the Vbat pin. This feeds through an MBR120 diode (pret
 After the above modification, the board should be powered through Vbat with a voltage between 4.1 and 6.0. The 4.1V lower limit comes from [3.3V + 0.4V (max Dropout of MCP73881/2) + 0.4V (max Vf across MBR120)]. The upper limit is the max recommended input of the MCP73881/2.
  
 You must disable the onboard radio modem on the C94-M8P boards as well. Refer to the documentation for the board on how to do that.
+
+Kenny Trussell
+http://kenny.trussell.biz
