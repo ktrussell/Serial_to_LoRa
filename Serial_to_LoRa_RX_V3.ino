@@ -93,7 +93,8 @@ void SERCOM1_Handler()
 //  It gives an indication of how long the incoming data stream is.
 #define LED 13
 
-void setup() {
+void setup()
+{
   pinMode(LED, OUTPUT);
   pinMode(RFM95_RST, OUTPUT);
   digitalWrite(RFM95_RST, HIGH);
@@ -141,13 +142,14 @@ void setup() {
 
 }
 
-void loop() {
-uint8_t buf[BUFLEN];
-unsigned buflen;
+void loop()
+{
+  uint8_t buf[BUFLEN];
+  unsigned buflen;
 
-uint8_t rfbuflen;
-uint8_t *bufptr;
-unsigned long lastTime, curTime;
+  uint8_t rfbuflen;
+  uint8_t *bufptr;
+  unsigned long lastTime, curTime;
 
   bufptr = buf;
 
@@ -177,13 +179,14 @@ unsigned long lastTime, curTime;
         }
       }
     }
-    else {
+    else
+    {
       Serial.println("Receive failed");
     }
 
-      buflen = (bufptr - buf);  // Total bytes received in all packets
-      Serial.println(buflen);   // For debugging
-      Serial2.write(buf, buflen); //Send data to the GPS
-      digitalWrite(LED, LOW);
+    buflen = (bufptr - buf);  // Total bytes received in all packets
+    Serial.println(buflen);   // For debugging
+    Serial2.write(buf, buflen); //Send data to the GPS
+    digitalWrite(LED, LOW);
   }
 }
