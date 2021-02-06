@@ -1,5 +1,5 @@
-// LoRa Receive Program Version 3.1
-// Serial_to_LoRa_RX_V3-1.ino
+// LoRa Receive Program Version 3.2.1
+// Serial_to_LoRa_RX_V3-2-1.ino
 // Copyright Kenny Trussell
 // http://kenny.trussell.biz
 //
