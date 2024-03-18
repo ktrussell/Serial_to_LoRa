@@ -31,9 +31,9 @@
 // Hardware Notes:
 //  I found that if the Feather is powered from 5V from another board, that if
 //  the other board is not powered and you insert a USB cable from a PC into
-//  the Feather (for programming for instance), that the Feather will apply
-//  power to the 5V from the other board from the LiPo charge circuit. To
-//  prevent this, I have a diode in the 5V line. Any diode with a Vf of 1V or
+//  the Feather (for programming for instance), that the Feather backfeed 5V
+//  to the other board from the LiPo charge circuit. To
+//  prevent this, add a diode in the 5V line from the other board. Any diode with a Vf of 1V or
 //  less and a current rating on the order of 200mA should work fine. A
 //  1N4001 throught 1N4007 device is a good choice.
 
